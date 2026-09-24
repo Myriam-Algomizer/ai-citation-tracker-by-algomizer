@@ -1,4 +1,4 @@
-# GEO Prompt Sampler
+# AI Citation Tracker by Algomizer
 
 A Claude skill that turns repeated runs of one AI-visibility prompt into a single citation report.
 
