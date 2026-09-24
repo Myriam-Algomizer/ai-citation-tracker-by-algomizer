@@ -4,7 +4,7 @@ A Claude skill that turns repeated runs of one AI-visibility prompt into a singl
 
 Ask ChatGPT the same question eight times and you get eight different source lists. The brands mostly hold. The pages cited change almost every run. Commercial GEO tools deal with this by sampling a prompt many times and aggregating. This skill does the same with logs you capture yourself, in any LLM you can open in a browser.
 
-Built by [Meriem Aousaji](https://www.linkedin.com/in/meriemaousaji/) at [Algomizer](https://algomizer.com).
+Built by [Meriem Aousaji](https://www.linkedin.com/in/myriam-aousaji/) at [Algomizer](https://algomizer.com).
 
 ## What you get
 
