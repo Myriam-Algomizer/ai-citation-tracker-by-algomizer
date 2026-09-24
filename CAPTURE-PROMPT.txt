@@ -1,0 +1,33 @@
+Create a downloadable markdown (.md) file containing a log entry for your previous answer. Give me the download link. Follow these rules:
+- Do not run a new search.
+- Do not change, improve or add to your previous answer.
+- Report only what your previous answer contained.
+- Name the file: geo-log_<llm>_<YYYYMMDD-HHMMSS>.md
+- If you cannot create downloadable files, return the full entry inside one code block and nothing else.
+
+Operator fields (copy them into the entry as written):
+brand: [company name]
+competitors: [competitor 1; competitor 2; competitor 3]
+
+The file holds this block, filled in:
+
+=== GEO LOG ENTRY ===
+brand: <copy from the operator fields>
+competitors: <copy from the operator fields>
+timestamp: <current date and time with timezone, in the form YYYY-MM-DD HH:MM:SS TZ. If you have no access to the current time, write UNKNOWN>
+llm: <the product you are: ChatGPT, Perplexity, Gemini, Claude, Copilot, other>
+provider: <the company that runs you>
+model: <your exact model name and version. If you do not know it, write UNKNOWN>
+mode: <any mode active for the previous answer: web search, deep research, thinking, pro, none>
+prompt: <copy the exact question I asked before this message>
+web_search_used: <yes or no>
+brands_mentioned: <each company or product named as an option in your previous answer, listed once, in order of first appearance, separated by ; . Leave out generic terms and sites that appear only as sources>
+citations:
+<one line per source cited in your previous answer, in order of first appearance, in this form:>
+<number>. <full URL> | <page title> | <times cited in the answer> | <which names from the brand and competitors fields that page mentions, separated by ; . Write none if it mentions none of them. Write unknown if you did not see the page content>
+<if the answer cited no sources, write: none>
+answer:
+<<<
+<your previous answer, copied word for word, with every link kept exactly as it appeared>
+>>>
+=== END ===

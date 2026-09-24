@@ -1,0 +1,7 @@
+{"prepared_by": "Algomizer",
+ "brand": {"name": "Remote", "aliases": ["Remote.com"], "domains": ["remote.com", "support.remote.com"], "common_word": true},
+ "competitors": [
+  {"name": "Deel", "domains": ["deel.com", "help.letsdeel.com"]},
+  {"name": "Rippling", "domains": ["rippling.com"]},
+  {"name": "Papaya Global", "aliases": ["Papaya"], "domains": ["papayaglobal.com"]},
+  {"name": "Oyster", "aliases": ["Oyster HR"], "domains": ["oysterhr.com", "support.oysterhr.com"]}]}
